@@ -60,19 +60,6 @@ source venv/bin/activate   # Linux/macOS
 pip install tensorflow numpy matplotlib scikit-learn notebook
 ```
 
-## Ejecución
-
-### Opción 1: Localmente
-
-```bash
-jupyter notebook
-```
-
-Luego abre cualquiera de los archivos `.ipynb` del repositorio.
-
-### Opción 2: Google Colab
-
-Puedes abrir cada notebook directamente desde GitHub en Colab usando el enlace que aparece en la parte superior de cada archivo.
 
 ## Resultados destacados
 
@@ -83,19 +70,7 @@ En las prácticas se evaluó el rendimiento de los modelos sobre Fashion-MNIST, 
 - Recall: 0.87
 - F1-score: 0.87
 
-## Estructura general del flujo de trabajo
-
-1. Carga del dataset Fashion-MNIST
-2. División de datos en entrenamiento, validación y prueba
-3. Normalización de imágenes
-4. Construcción de arquitecturas de redes neuronales
-5. Entrenamiento y comparación de optimizadores/modelos
-6. Evaluación con métricas y visualización de resultados
-
-## Autor
-
-Proyecto desarrollado por Juanita Rozo.
 
 ## Licencia
 
-Este repositorio se comparte con fines académicos y de aprendizaje. Si deseas reutilizar el contenido, puedes citarlo y mencionarlo como referencia.
+Este repositorio se comparte con fines académicos y de aprendizaje
